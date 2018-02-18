@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title> BlackJack </title>
+		<link rel="stylesheet" type="text/css" media="screen" href="bj.css"/>
+	</head>
+
+  <body onload="randomImg()">
+  	<h1> BlackJack </h1>
+		<div id="overlay" onclick="off()">
+			<div id="text"></div>
+			<p id='message'>Veuillez cliquer n'importe où dans le cadre pour faire disparaitre ce message</p>
+		</div>
+		<div id="plateau" >
+				<h2> Les cartes de la banque </h2>
+				<p id='BC'><img src="" id="carte_banque" alt="Carte de la Banque"/></p>
+				<h2> Vos cartes </h2>
+    		<p id='CJ'><img src="" id="carte_joueur" alt="Carte du Joueur"/></p>
+		</div>
+    <p><class=legende id="texte1"> La banque a MISSING points. </p>
+    <p><class=legende id="texte2"> Vous avez MISSING points. Carte ou reste ? </p>
+    <p><button id="card"  type="submit">Carte</button>
+      <button id="stay"  type="submit">Reste</button>
+      <button id="replay"  type="submit">Rejouer</button>
+    </p>
+		<script type="text/javascript" src="BJ.js"></script>
+  </body>
+</html>

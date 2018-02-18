@@ -1,0 +1,51 @@
+body {
+font-weight: normal;
+font-family: sans-serif;
+}
+
+#plateau {
+border: 3px solid black;
+background-color: green;
+width: 30em;
+padding-top: 1em;
+padding-right: 1em;
+padding-bottom: 2em;
+padding-left: 1em;
+text-align: center;
+color: white;
+}
+
+h1 {
+font-weight: bold;
+font-family: sans-serif;
+}
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 30.3em;
+    height: 22em;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 2em;
+    padding-left: 1em;
+    text-align: center;
+    background-color: rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+
+#text{
+    position: relative;
+    text-align: center;
+    top: 50%;
+    font-size: 50px;
+    color: white;
+}
+
+#message{
+  position: relative;
+  text-align: center;
+  top: 75%;
+  font-size: 15px;
+  color: grey;
+}
